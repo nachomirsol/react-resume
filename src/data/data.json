@@ -1,0 +1,78 @@
+{
+  "contact-info": {
+    "name": "Nacho Miralles",
+    "street": "Calle la lloma 3, godella",
+    "telephone-number": "649917963",
+    "email": "nachomirsol@gmail.com",
+    "website": "nachomir"
+  },
+  "languages": [{ "German": "Advanced" }, { "English": "Safe to negotiate" }],
+  "qualifications": {
+    "Lawyers licence": "Yes",
+    "Years of licence": 1995,
+    "qualifications": [
+      "Certified Specialist SAV Labour Law",
+      "Specialist lawyer SAV inheritance Law",
+      "Specialist Lawyer SAV Construction and Real Estate Law",
+      "Specialist lawyer SAV Liability and Insurance Law"
+    ]
+  },
+  "geographical-cover": {
+    "street": "CH - Aargovia, Appenzell Ausserhoden",
+    "city": "Zurich, Basel-Landschaft, Appenzell",
+    "place": "Innerhoden"
+  },
+  "bank-account": {
+    "owner": "Juanjo Martí",
+    "IBAN": "CH48 00700 0110 0009 7178 4",
+    "VAT": "47529348238"
+  },
+  "services": {
+    "construction-law": [
+      {
+        "law-name": "Builders lien law",
+        "fee": "35 CFH per hour",
+        "star-rating": 0
+      },
+      {
+        "law-name": "Buildeing contract law",
+        "fee": "35 CFH per hour",
+        "star-rating": 0
+      },
+      {
+        "law-name": "Expropiation law",
+        "fee": "35 CFH per hour",
+        "star-rating": 0
+      }
+    ],
+    "labour-law": [
+      {
+        "law-name": "Equality Law",
+        "fee": "35 CFH per hour",
+        "star-rating": 0
+      },
+      {
+        "law-name": "Private labour law",
+        "fee": "35 CFH per hour",
+        "star-rating": 0
+      },
+      {
+        "law-name": "Public personnel law",
+        "fee": "35 CFH per hour",
+        "star-rating": 0
+      }
+    ],
+    "social-insurance-law": [
+      {
+        "law-name": "Daily sickness benefit (KTG)",
+        "fee": "35 CFH per hour",
+        "star-rating": 0
+      },
+      {
+        "law-name": "Disability insurance (IV)",
+        "fee": "35 CFH per hour",
+        "star-rating": 0
+      }
+    ]
+  }
+}
