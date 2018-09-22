@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
-import Profile from "./components/profile/Profile";
+import ProfileHeader from "./components/profileHeader/ProfileHeader";
+import ContactInfo from "./components/contactInfo/ContactInfo";
+import Languages from "./components/languages/Languages";
+import Qualifications from "./components/qualifications/Qualifications";
 
 class App extends Component {
   render() {
@@ -11,7 +14,7 @@ class App extends Component {
           {/* HEADER JAROWA PART*/}
           <Header />
           {/* PROFILE HEADER PART*/}
-          <Profile />
+          <ProfileHeader />
 
           {/* PERSONAL INFO AND SERVICES PART*/}
           <div className="row">
@@ -19,18 +22,11 @@ class App extends Component {
 
             {/* CONTACT INFO PART*/}
             <div className="col-md-7">
-              left
-              <div className="row">
-                <div className="col-md-7">CONTACT INFO</div>
-              </div>
+              <ContactInfo />
               {/* LANGUAGES PART*/}
-              <div className="row">
-                <div className="col-md-7">LANGUAGES</div>
-              </div>
+              <Languages />
               {/* QUALIFICATIONS PART*/}
-              <div className="row">
-                <div className="col-md-7">QUALIFICATIONS</div>
-              </div>
+              <Qualifications />
               {/* GEOGRAPHICAL PART*/}
               <div className="row">
                 <div className="col-md-7">GEOGRAPHICAL COVER</div>

@@ -1,19 +1,33 @@
 {
-  "contact-info": {
-    "name": "Nacho Miralles",
-    "street": "Calle la lloma 3, godella",
-    "telephone-number": "649917963",
+  "contact_info": {
+    "title": "Prof.",
+    "name": "Juanjo Martí",
+    "street": "Alte Landstrasse 21 8800",
+    "town": "Thalwil ZH CH",
+    "telephone": "+3465899556 +41555555555",
     "email": "nachomirsol@gmail.com",
-    "website": "nachomir"
+    "website": "http://www.colba.es"
   },
-  "languages": [{ "German": "Advanced" }, { "English": "Safe to negotiate" }],
+  "languages": [
+    {
+      "German": "Advanced",
+      "rating": 3,
+      "level": "advanced"
+    },
+    {
+      "English": "Safe to negotiate",
+      "rating": 2,
+      "level": "Safe to negotiate"
+    }
+  ],
   "qualifications": {
-    "Lawyers licence": "Yes",
-    "Years of licence": 1995,
+    "lawyers_licence": "Yes",
+    "year_of_licence": 1995,
     "qualifications": [
       "Certified Specialist SAV Labour Law",
       "Specialist lawyer SAV inheritance Law",
       "Specialist Lawyer SAV Construction and Real Estate Law",
+      "Insurance law",
       "Specialist lawyer SAV Liability and Insurance Law"
     ]
   },

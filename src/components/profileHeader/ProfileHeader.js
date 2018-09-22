@@ -1,7 +1,7 @@
 import React from "react";
 import "./Profile.css";
 
-const Profile = () => {
+const ProfileHeader = () => {
   return (
     <div className="row profile">
       <div className="col-md-6">
@@ -27,4 +27,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default ProfileHeader;

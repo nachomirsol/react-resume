@@ -1,0 +1,13 @@
+.qualifications h5 {
+  color: #65b61b;
+  margin-bottom: 15px;
+}
+
+.qualifications .title {
+  color: grey;
+}
+
+.qualifications .rows {
+    margin-top:10px;
+    margin-bottom:10px;
+}

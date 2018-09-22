@@ -1,0 +1,46 @@
+.contact-info {
+  border-bottom: 1px solid rgb(230, 230, 230);
+  margin-bottom: 15px;
+}
+
+.contact-info img {
+  width: 240px;
+}
+
+.contact-info .btn {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-info .btn small {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.contact-info h4 {
+  margin-bottom: 20px;
+}
+
+.contact-info h5 {
+  margin-bottom: 20px;
+}
+
+.contact-info p span {
+  color: grey;
+}
+
+.contact-info .icons .fas {
+  color: grey;
+  margin-right: 10px;
+}
+
+.contact-info .icons p {
+  font-size: 17px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.contact-info .icons p span {
+  color: #65b61b;
+}
