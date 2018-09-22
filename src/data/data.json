@@ -31,15 +31,15 @@
       "Specialist lawyer SAV Liability and Insurance Law"
     ]
   },
-  "geographical-cover": {
+  "geographical_cover": {
     "street": "CH - Aargovia, Appenzell Ausserhoden",
     "city": "Zurich, Basel-Landschaft, Appenzell",
     "place": "Innerhoden"
   },
-  "bank-account": {
+  "bank_account": {
     "owner": "Juanjo Martí",
-    "IBAN": "CH48 00700 0110 0009 7178 4",
-    "VAT": "47529348238"
+    "iban": "CH48 00700 0110 0009 7178 4",
+    "vat": "47529348238"
   },
   "services": {
     "construction-law": [

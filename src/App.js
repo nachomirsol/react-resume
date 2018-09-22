@@ -5,6 +5,9 @@ import ProfileHeader from "./components/profileHeader/ProfileHeader";
 import ContactInfo from "./components/contactInfo/ContactInfo";
 import Languages from "./components/languages/Languages";
 import Qualifications from "./components/qualifications/Qualifications";
+import Geographical from "./components/geographical/Geographical";
+import BankAccount from "./components/bankAccount/BankAccount";
+import Services from "./components/services/Services.js";
 
 class App extends Component {
   render() {
@@ -28,17 +31,13 @@ class App extends Component {
               {/* QUALIFICATIONS PART*/}
               <Qualifications />
               {/* GEOGRAPHICAL PART*/}
-              <div className="row">
-                <div className="col-md-7">GEOGRAPHICAL COVER</div>
-              </div>
+              <Geographical />
               {/* GEOGRAPHICAL PART*/}
-              <div className="row">
-                <div className="col-md-7">BANK ACCOUNT</div>
-              </div>
+              <BankAccount />
             </div>
 
             {/* SERVICES PART*/}
-            <div className="col-md-5">right</div>
+            <Services />
           </div>
           {/* FOOTER PART*/}
           <div className="row">
