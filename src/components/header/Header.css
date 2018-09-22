@@ -1,0 +1,29 @@
+.header {
+  margin-bottom: 50px;
+}
+
+.logo {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-right {
+  border-top: #65b61b;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-right p {
+  height: 10px;
+}
+
+.header-right small {
+  color: gray;
+}

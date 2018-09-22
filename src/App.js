@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
+import Header from "./components/header/Header";
+import Profile from "./components/profile/Profile";
 
 class App extends Component {
   render() {
@@ -7,25 +9,9 @@ class App extends Component {
       <div className="App">
         <div className="container">
           {/* HEADER JAROWA PART*/}
-          <div className="row">
-            <div className="col-md-6">JAROWA</div>
-            <div className="col-md-6">Order Overview</div>
-          </div>
+          <Header />
           {/* PROFILE HEADER PART*/}
-          <div className="row">
-            <div className="col-md-6">PROFILE</div>
-            <div className="col-md-6">
-              <button type="button" class="btn btn-outline-success">
-                Success
-              </button>
-              <button type="button" class="btn btn-outline-success">
-                Success
-              </button>
-              <button type="button" class="btn btn-outline-success">
-                Success
-              </button>
-            </div>
-          </div>
+          <Profile />
 
           {/* PERSONAL INFO AND SERVICES PART*/}
           <div className="row">
@@ -57,6 +43,11 @@ class App extends Component {
 
             {/* SERVICES PART*/}
             <div className="col-md-5">right</div>
+          </div>
+          {/* FOOTER PART*/}
+          <div className="row">
+            <div className="col-md-6">Copyright © 2018 JAROWA AG </div>
+            <div className="col-md-6">Help | Report error</div>
           </div>
         </div>
       </div>

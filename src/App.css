@@ -1,12 +1,4 @@
-.container {
-  border: 1px solid gray;
-}
+.App {
 
-.row {
-  border: 1px solid gray;
-}
-.col-md-6,
-.col-md-5,
-.col-md-7 {
-  border: 1px solid gray;
+  background-color: rgba(240, 240, 240, 0.7);
 }
