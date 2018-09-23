@@ -38,4 +38,14 @@
 .services .star{
   float:left;
   margin-right:10px;
+
+}
+
+
+.services .hide{
+  color:#65b61b;
+}
+
+.services .show{
+  color:#000;
 }

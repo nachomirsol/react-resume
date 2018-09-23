@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import StarRatingComponent from 'react-star-rating-component';
 import ItemService from './ItemService';
-import { test } from '../../data/data.json';
+import { services } from '../../data/data.json';
 import "./Services.css";
 
 class Services extends Component {
@@ -12,8 +12,6 @@ class Services extends Component {
     }
   }
 
-
-
   render() {
     return (
       <div className="col-md-5 services">
@@ -21,22 +19,24 @@ class Services extends Component {
           <strong>Services</strong>
         </h3>
 
-        <div className="row">
-          <div className="col-md-12">
-            <h5>
-              <strong>Construction and Real Estate Law</strong>
-            </h5>
+        <div className="row">     
             {/*<ItemService /> */}
-
-            {test.map((item) =>
-              item.servicio.map((element) => {
-                return (<ItemService />)
-              })
-
-            )}
-
-
-          </div>
+            {services.map((item,i) => (
+              <div className="col-md-12" key={i}>
+                <h5><strong>{item.title}</strong></h5>
+                {item.service.map((element,index) => {
+                  return(
+                    <ItemService 
+                      key = {index}
+                      name = {element.name} 
+                      fee = {element.fee}
+                      currency = {element.currency}
+                      star = {element.star_rating}
+                    />
+                  )
+                })}
+              </div>
+            ))}        
         </div>
       </div>
     );
