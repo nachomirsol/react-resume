@@ -28,8 +28,11 @@ class Services extends Component {
             </h5>
             {/*<ItemService /> */}
 
-            {test.map((item,index) =>
-              <ItemService key={index} />
+            {test.map((item) =>
+              item.servicio.map((element) => {
+                return (<ItemService />)
+              })
+
             )}
 
 

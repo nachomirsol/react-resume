@@ -137,7 +137,7 @@
     }
   ],
   "test":[
-    {"prueba":"prueba"},
-    {"prueba":"prueba"}
+    {"prueba":"prueba","servicio":[{"nombre":"servicio","cantidad":6}]},
+    {"prueba":"prueba2","servicio":[{"nombre":"servicio2","cantidad":8}]}
   ]
 }
