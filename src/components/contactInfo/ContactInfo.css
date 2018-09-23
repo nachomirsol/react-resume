@@ -4,7 +4,7 @@
 }
 
 .contact-info img {
-  width: 240px;
+  width: 90%;
 }
 
 .contact-info .btn {
@@ -12,16 +12,26 @@
   margin-bottom: 20px;
 }
 
+.contact-info .available{
+  background-color:#65b61b;
+  border-radius:10px;
+}
+
+.contact-info .iconCheck{
+  width:100%;
+  display:block;
+}
+
 .contact-info .btn small {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.contact-info h4 {
+.contact-info h5 {
   margin-bottom: 20px;
 }
 
-.contact-info h5 {
+.contact-info h6 {
   margin-bottom: 20px;
 }
 

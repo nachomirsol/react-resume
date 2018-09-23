@@ -11,6 +11,7 @@ const Header = () => {
         <div className="text-right header-right">
           <p>
             <strong>Order Overview</strong>
+            <i className="fas fa-angle-down"></i>
           </p>
           <small>Lawyer Lawyer</small>
         </div>

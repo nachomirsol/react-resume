@@ -4,7 +4,7 @@ import { bank_account } from "../../data/data.json";
 
 const BankAccount = () => {
   return (
-    <div className="row qualifications">
+    <div className="row bankAccount">
       <div className="col-md-12">
         <div className="row">
           <h5>

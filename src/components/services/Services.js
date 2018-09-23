@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import StarRatingComponent from 'react-star-rating-component';
 import ItemService from './ItemService';
 import { services } from '../../data/data.json';
 import "./Services.css";

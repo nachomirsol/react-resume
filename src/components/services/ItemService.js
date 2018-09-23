@@ -8,21 +8,18 @@ class ItemService extends Component {
         super(props)
         this.state = {
             isOpen: true
-
         }
     }
 
     handleShow = () => {
         this.setState({
             isOpen: !this.state.isOpen
-
         })
     }
 
     render() {
         return (
             <div>
-
                 <div className={"row titleservice " + (this.state.isOpen ? 'hide' : 'show')}>
                     <div className="col-md-8 ">
                         <strong>{this.props.name}</strong>
@@ -57,9 +54,9 @@ class ItemService extends Component {
                 }
 
             </div>
-
         )
     }
 }
+
 
 export default ItemService;

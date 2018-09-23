@@ -1,10 +1,12 @@
 .languages {
   border-bottom: 1px solid rgb(230, 230, 230);
   margin-bottom: 15px;
+  
 }
 
 .languages h5 {
   color: #65b61b;
+  margin-bottom:40px;
 }
 
 .languages .level{
@@ -14,6 +16,7 @@
 .languages .lines{
   width:100%;
 }
+
 .languages .lines .empty{
   border:3px solid rgb(255,200,100);
   border-radius: 25px;
@@ -29,4 +32,8 @@
   margin:2px;
   width:40px;
   float:left;
+}
+
+.languages .languageName{
+  margin-top:20px;
 }

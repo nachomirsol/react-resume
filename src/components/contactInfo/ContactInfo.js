@@ -13,16 +13,17 @@ const ContactInfo = () => {
         />
       </div>
       <div className="col-md-7">
-        <h4>
+        <h5>
           <strong>
             {contact_info.title} {contact_info.name}
           </strong>
-        </h4>
+          <button type="button" className="btn btn-success float-right available"><i className="fas fa-check iconCheck"></i><small>{contact_info.availability}</small></button>
+        </h5>
         <button type="button" className="btn btn-outline-secondary">
           <small><strong>♀ 68 years</strong></small>
         </button>
 
-        <h5><strong>{contact_info.name}</strong></h5>
+        <h6><strong>{contact_info.name}</strong></h6>
 
         <p><span>{contact_info.street}{contact_info.town}</span></p>
 

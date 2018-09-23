@@ -1,11 +1,12 @@
 {
   "contact_info": {
+    "availability":"available",
     "title": "Prof.",
     "name": "Juanjo Martí",
     "street": "Alte Landstrasse 21 8800",
     "town": "Thalwil ZH CH",
     "telephone": "+3465899556 +41555555555",
-    "email": "nachomirsol@gmail.com",
+    "email": "juanjo@colba.es",
     "website": "http://www.colba.es"
   },
   "languages": [
@@ -64,18 +65,6 @@
           "star_rating": 5
         },
         {
-          "name": "Expropriation law",
-          "fee": 35,
-          "currency": "CHF",
-          "star_rating": 5
-        },
-        {
-          "name": "Public construction and planning law",
-          "fee": 35,
-          "currency": "CHF",
-          "star_rating": 5
-        },
-        {
           "name": "Rental and lease law (real estate)",
           "fee": 35,
           "currency": "CHF",
@@ -93,25 +82,13 @@
       "title": "Labour Law",
       "service": [
         {
-          "name": "Disputes arising from collective labour a...",
+          "name": "Disputes arising from collective...",
           "fee": 35,
           "currency": "CHF",
           "star_rating": 5
         },
         {
           "name": "Equality Law",
-          "fee": 35,
-          "currency": "CHF",
-          "star_rating": 5
-        },
-        {
-          "name": "Private labour law",
-          "fee": 35,
-          "currency": "CHF",
-          "star_rating": 5
-        },
-        {
-          "name": "Public personnel law",
           "fee": 35,
           "currency": "CHF",
           "star_rating": 5

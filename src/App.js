@@ -7,7 +7,8 @@ import Languages from "./components/languages/Languages";
 import Qualifications from "./components/qualifications/Qualifications";
 import Geographical from "./components/geographical/Geographical";
 import BankAccount from "./components/bankAccount/BankAccount";
-import Services from "./components/services/Services.js";
+import Services from "./components/services/Services";
+import Footer from "./components/footer/Footer"
 
 class App extends Component {
   render() {
@@ -20,19 +21,14 @@ class App extends Component {
           <ProfileHeader />
 
           {/* PERSONAL INFO AND SERVICES PART*/}
-          <div className="row">
+          <div className="row mid">
             {/* PERSONAL INFO PART*/}
-
-            {/* CONTACT INFO PART*/}
-            <div className="col-md-7">
-              <ContactInfo />
-              {/* LANGUAGES PART*/}
-              <Languages />
-              {/* QUALIFICATIONS PART*/}
+    
+            <div className="col-md-7 left-part">
+              <ContactInfo />  
+              <Languages />    
               <Qualifications />
-              {/* GEOGRAPHICAL PART*/}
               <Geographical />
-              {/* GEOGRAPHICAL PART*/}
               <BankAccount />
             </div>
 
@@ -40,10 +36,7 @@ class App extends Component {
             <Services />
           </div>
           {/* FOOTER PART*/}
-          <div className="row">
-            <div className="col-md-6">Copyright © 2018 JAROWA AG </div>
-            <div className="col-md-6">Help | Report error</div>
-          </div>
+          <Footer />
         </div>
       </div>
     );

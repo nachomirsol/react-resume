@@ -1,12 +1,10 @@
 import React,{Component} from "react";
 import "./Languages.css";
-import { languages } from "../../data/data.json";
 
 class Language extends Component{
 
   constructor(props) {
       super(props);
-
       this.level = props.lines;
   }
 
@@ -34,16 +32,18 @@ class Language extends Component{
   render(){
     return (
        
-          <div className="col-md-4">
+          <div className="col-md-3">
   
-            <div className="level"><small>Advanced</small></div>
-            <div className="lines">
-              
+            <div className="level text-center"><small>{this.props.level}</small></div>
+            <div className="lines">  
+
                 <div className={this.getCssClass(0)}></div>
                 <div className={this.getCssClass(1)}></div>
                 <div className={this.getCssClass(2)}></div>
+
             </div>
-            <div>{this.props.name}</div>
+
+            <p className="languageName text-center">{this.props.name}</p>
           </div>
     );
   }

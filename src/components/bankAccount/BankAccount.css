@@ -1,0 +1,17 @@
+.bankAccount{
+    margin-bottom: 15px;
+}
+
+.bankAccount h5 {
+  color: #65b61b;
+  margin-bottom: 15px;
+}
+
+.bankAccount .title {
+  color: grey;
+}
+
+.bankAccount .rows {
+    margin-top:10px;
+    margin-bottom:10px;
+}
