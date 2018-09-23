@@ -24,3 +24,18 @@
   padding: 20px 20px 20px 0px;
   background-color: rgb(245, 245, 245);
 }
+
+.services .dv-star-rating{
+  float:left;
+  display:inline !important;
+  margin-right:10px;
+}
+
+.services .starhideshow{
+  margin-top:20px;
+}
+
+.services .star{
+  float:left;
+  margin-right:10px;
+}

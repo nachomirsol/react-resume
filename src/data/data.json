@@ -43,8 +43,8 @@
   },
   "services": [
     {
-      "category": "Construction and Real Estate Law",
-      "services": [
+      "title": "Construction and Real Estate Law",
+      "service": [
         {
           "name": "Builder's lien law",
           "fee": 35,
@@ -90,8 +90,8 @@
       ]
     },
     {
-      "category": "Labour Law",
-      "services": [
+      "title": "Labour Law",
+      "service": [
         {
           "name": "Disputes arising from collective labour a...",
           "fee": 35,
@@ -119,8 +119,8 @@
       ]
     },
     {
-      "category": "Social insurance Law",
-      "services": [
+      "title": "Social insurance Law",
+      "service": [
         {
           "name": "Daily sickness benefit (KTG)",
           "fee": 35,
@@ -135,5 +135,9 @@
         }
       ]
     }
+  ],
+  "test":[
+    {"prueba":"prueba"},
+    {"prueba":"prueba"}
   ]
 }

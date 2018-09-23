@@ -1,40 +1,43 @@
-import React from "react";
+import React, { Component } from "react";
+import StarRatingComponent from 'react-star-rating-component';
+import ItemService from './ItemService';
+import { test } from '../../data/data.json';
 import "./Services.css";
 
-const Services = () => {
-  return (
-    <div className="col-md-5 services">
-      <h3>
-        <strong>Services</strong>
-      </h3>
+class Services extends Component {
+  constructor() {
+    super();
+    this.state = {
+      //services:services
+    }
+  }
 
-      <div className="row">
-        <div className="col-md-12">
-          <h5>
-            <strong>Construction and Real Estate Law</strong>
-          </h5>
 
-          <div className="row titleservice">
-            <div className="col-md-8 ">
-              <strong>Builders' lien law</strong>
-            </div>
-            <div className="col-md-4 text-right">
-              <strong>Hide ∧</strong>
-            </div>
-          </div>
 
-          <div className="row grey">
-            <div className="col-md-7 ">
-              <strong>Fee</strong>
-            </div>
-            <div className="col-md-5 text-right">
-              <strong>35 CHF per hour</strong>
-            </div>
+  render() {
+    return (
+      <div className="col-md-5 services">
+        <h3>
+          <strong>Services</strong>
+        </h3>
+
+        <div className="row">
+          <div className="col-md-12">
+            <h5>
+              <strong>Construction and Real Estate Law</strong>
+            </h5>
+            {/*<ItemService /> */}
+
+            {test.map((item,index) =>
+              <ItemService key={index} />
+            )}
+
+
           </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Services;
