@@ -18,7 +18,7 @@
 }
 
 .languages .lines .empty{
-  border:3px solid rgb(255,200,100);
+  border:3px solid rgb(248, 203, 119);
   border-radius: 25px;
   margin:2px;
   width:40px;
@@ -27,7 +27,7 @@
 }
 
 .languages .lines .filled{
-  border-top:5px solid rgb(100,200,100);
+  border-top:5px solid rgb(238, 158, 9);
   border-radius: 25px;
   margin:2px;
   width:40px;

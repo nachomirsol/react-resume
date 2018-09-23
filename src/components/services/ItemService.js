@@ -20,43 +20,42 @@ class ItemService extends Component {
     render() {
         return (
             <div>
-                <div className={"row titleservice " + (this.state.isOpen ? 'hide' : 'show')}>
-                    <div className="col-md-8 ">
-                        <strong>{this.props.name}</strong>
-                    </div>
-                    <div className="col-md-4 text-right">
-                        <strong><a onClick={this.handleShow}>{this.state.isOpen ? "Hide ∨" : "Show ⌃"}</a></strong>
+                {this.state.isOpen
+                ?
+                <div className ={"row titleservice " + (this.state.isOpen ? 'hide' : 'show')}>
+                <div className ="col-md-12">
+
+                    <strong className ="float-left">{this.props.name}</strong>
+                    <strong className="float-right"><a onClick={this.handleShow}>{this.state.isOpen ? "Hide ∨" : "Show ⌃"}</a></strong>
+
+                    <div className ="col-md-12 grey">
+                        <span className ="float-left">Fee</span>
+                        <strong className = "float-right">{this.props.fee} {this.props.currency} per hour</strong>
                     </div>
                 </div>
+            </div>
+            :
+            <div className ="row hidden">
+                <div className ="col-md-12">
+                    <strong className ="float-left">{this.props.name}</strong>
+                    <strong className="float-right"><a onClick={this.handleShow}>{this.state.isOpen ? "Hide ∨" : "Show ⌃"}</a></strong>
 
-                {this.state.isOpen
-                    ?
-                    <div className="row grey">
-                        <div className="col-md-7 ">
-                            <strong>Fee</strong>
-                        </div>
-                        <div className="col-md-5 text-right">
-                            <strong>{this.props.fee} {this.props.currency} per hour</strong>
-                        </div>
+                    <div className ="row star">
+                        
+                        <span className="starrate">(-)</span>
+                                <StarRatingComponent
+                                    name={"rating"}
+                                    value={5}
+                                    starCount={this.props.star_rating}
+                                />
+                        <span className="starate"><strong>{this.props.fee} {this.props.currency} per hour</strong></span>         
                     </div>
-                    :
-                    <div className="row star">
-                        <div className="col-md-12 starhideshow">
-                            <span className="star">(-)</span>
-                            <StarRatingComponent
-                                name={"rating"}
-                                value={5}
-                                starCount={this.props.star_rating}
-                            />
-                            <span className="starate"><strong>35 CFH per hour</strong></span>
-                        </div>
-                    </div>
-                }
-
+                </div>
+            </div>
+            }
             </div>
         )
     }
 }
-
 
 export default ItemService;

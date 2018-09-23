@@ -1,6 +1,6 @@
 {
   "contact_info": {
-    "availability":"available",
+    "availability": "available",
     "title": "Prof.",
     "name": "Juanjo Martí",
     "street": "Alte Landstrasse 21 8800",
@@ -12,7 +12,7 @@
   "languages": [
     {
       "name": "German",
-      "lines": 3,
+      "lines": 1,
       "level": "advanced"
     },
     {
@@ -47,7 +47,7 @@
       "title": "Construction and Real Estate Law",
       "service": [
         {
-          "name": "Builder's lien law",
+          "name": "Builder's lien law example",
           "fee": 35,
           "currency": "CHF",
           "star_rating": 5
@@ -113,8 +113,24 @@
       ]
     }
   ],
-  "test":[
-    {"prueba":"prueba","servicio":[{"nombre":"servicio","cantidad":6}]},
-    {"prueba":"prueba2","servicio":[{"nombre":"servicio2","cantidad":8}]}
+  "test": [
+    {
+      "prueba": "prueba",
+      "servicio": [
+        {
+          "nombre": "servicio",
+          "cantidad": 6
+        }
+      ]
+    },
+    {
+      "prueba": "prueba2",
+      "servicio": [
+        {
+          "nombre": "servicio2",
+          "cantidad": 8
+        }
+      ]
+    }
   ]
 }
