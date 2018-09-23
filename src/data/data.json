@@ -10,13 +10,13 @@
   },
   "languages": [
     {
-      "German": "Advanced",
-      "rating": 3,
+      "name": "German",
+      "lines": 3,
       "level": "advanced"
     },
     {
-      "English": "Safe to negotiate",
-      "rating": 2,
+      "name": "English",
+      "lines": 2,
       "level": "Safe to negotiate"
     }
   ],
